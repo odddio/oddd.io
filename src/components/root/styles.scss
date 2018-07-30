@@ -1,0 +1,30 @@
+$lighterRed: #F6DDDF;
+$lightRed: #EEC9C8;
+$red: #DF9C9D;
+$gray: #687A80;
+$lightGray: #B9C6CA;
+$green: #A2C0C0;
+$yellow: #E2DFD0;
+$orange: #DDD1BB;
+$white: #BEC2C1;
+$brown: #A69C92;
+
+html, body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background: #B9C6CA;
+}
+
+.header {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 10px;
+  background: $gray;
+  color: $red;
+  padding: 1rem;
+
+  span {
+    text-transform: uppercase;
+  }
+}
